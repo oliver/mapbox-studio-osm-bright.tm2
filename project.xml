@@ -10,7 +10,7 @@
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="name"><![CDATA[OSM Bright 2]]></Parameter>
-  <Parameter name="source"><![CDATA[http://openmaptiles.org/cdn.json]]></Parameter>
+  <Parameter name="source"><![CDATA[mbtiles://./germany.mbtiles]]></Parameter>
 </Parameters>
 
 <FontSet name="fontset-0">
