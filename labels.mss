@@ -162,6 +162,7 @@
     text-face-name:	@sans_bd;
     text-transform: uppercase;
     text-character-spacing: 0.5;
+    [zoom<14] { text-name: "''"; }
     [zoom>=14] { text-size: 11; }
     [zoom>=15] { text-size: 12; text-character-spacing: 1; }
     [zoom>=16] { text-size: 14; text-character-spacing: 2; }
