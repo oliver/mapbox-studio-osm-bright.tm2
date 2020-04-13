@@ -22,13 +22,12 @@
 
 // All fontsets should have a good fallback that covers as many glyphs
 // as possible.
-@fallback: 'Arial Unicode MS Regular';
-@sans: 'Open Sans Regular', @fallback;
-@sans_md: 'Open Sans Semibold', @fallback;
-@sans_bd: 'Open Sans Bold', 'Arial Unicode MS Bold', @fallback;
-@sans_it: 'Open Sans Italic', @fallback;
-@sans_lt_italic: 'Open Sans Light Italic', @fallback;
-@sans_lt: 'Open Sans Light', @fallback;
+@sans: 'Open Sans Regular';
+@sans_md: 'Open Sans Semibold';
+@sans_bd: 'Open Sans Bold';
+@sans_it: 'Open Sans Italic';
+@sans_lt_italic: 'Open Sans Light Italic';
+@sans_lt: 'Open Sans Light';
 
 @place_halo:        #fff;
 @country_text:      @land * 0.2;
